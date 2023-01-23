@@ -10,7 +10,7 @@ Scanner s = new Scanner(System.in);
 
 	perimeter = 2 * Math.PI * radius;
 //Calculate the area
-	area = perimeter * radius;
+	area = perimeter / 2 * radius;
 	
 	System.out.println(perimeter);
 	System.out.println(area);
